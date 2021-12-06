@@ -8,3 +8,5 @@ Day 1: Time complexity and Space Complexity - Basic
 Day 2: More about time and space complexity
 
 Day 3: Recursion (Basic level) and some basic questions + Git bash and Github 
+
+Day 4: Recursion some medium level questions and some classic problems like Tower of Hanoi, etc.

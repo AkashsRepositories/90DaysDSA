@@ -49,29 +49,83 @@ public class Recursion2 {
 
 
 
-    public static boolean isSorted(int arr[], int idx)  {
+    // public static boolean isSorted(int arr[], int idx)  {
         
-        //arr.length-1 because we are using idx+1 in next if statement
-        if(idx == arr.length - 1) {
-            return true;
-        }
+    //     //arr.length-1 because we are using idx+1 in next if statement
+    //     if(idx == arr.length - 1) {
+    //         return true;
+    //     }
 
-        // if(arr[idx] < arr[idx + 1]){
-        //     //array is strictly sorted until now then do a recursive call to check remaining elements 
-        //     return isSorted(arr, idx + 1);        
-        // } else{
-        //     return false;
-        // }
+    //     // if(arr[idx] < arr[idx + 1]){
+    //     //     //array is strictly sorted until now then do a recursive call to check remaining elements 
+    //     //     return isSorted(arr, idx + 1);        
+    //     // } else{
+    //     //     return false;
+    //     // }
 
-        if(arr[idx] >= arr[idx + 1]){
-            return false;
-        } 
+    //     if(arr[idx] >= arr[idx + 1]){
+    //         return false;
+    //     } 
             
-        return isSorted(arr, idx+1);
+    //     return isSorted(arr, idx+1);
         
-    }
+    // }
 
 
+
+    // public static void printXatEnd(String str, int idx, int count, String newString) {
+    //     if(idx == str.length()) {
+    //         for(int i = 0; i < count; i++) {
+    //             newString += 'x';
+    //         }
+    //         System.out.println(newString);
+    //         return;
+    //     }
+    //     char currChar = str.charAt(idx);
+    //     if(currChar == 'x') {
+    //         count++;
+    //         printXatEnd(str, idx+1, count, newString);
+    //     } else {
+    //         newString += currChar;      //newString = newString + currChar
+    //         printXatEnd(str, idx+1, count, newString);
+    //     }
+    // }
+
+
+
+    // public static boolean[] map = new boolean[26];
+//map can be directly accessed inside function()
+    // public static void removeDuplicates(String str, int idx, String newString) {
+    //     if(idx == str.length()) {
+    //         System.out.println(newString);
+    //         return;
+    //     }
+    //     char currChar = str.charAt(idx);
+    //     if(map[currChar - 'a']) {
+    //         removeDuplicates(str, idx+1, newString);
+    //     } else {
+    //         newString += currChar;
+    //         map[currChar - 'a'] = true;
+    //         removeDuplicates(str, idx+1, newString);
+    //     }
+    // }
+
+
+/*****/
+    // public static void subsequences(String str, int idx, String newString) {
+
+    //     if(idx == str.length()) {
+    //         System.out.println(newString);
+    //         return;
+    //     }
+    //     char currChar = str.charAt(idx);
+
+    //     //to come in string
+    //     subsequences(str, idx+1, newString+currChar);
+        
+    //     //to not come in string
+    //     subsequences(str, idx+1, newString);
+    // }
 
 
     public static void main(String[] args) {
@@ -88,9 +142,20 @@ public class Recursion2 {
         // findOccurance(str, 0, 'a');
 
 
-        int arr[] = { -1, 0, 2, 5};
-        boolean result = isSorted(arr, 0);
-        System.out.println(result);
+        // int arr[] = { -1, 0, 2, 5};
+        // boolean result = isSorted(arr, 0);
+        // System.out.println(result);
 
+
+        // String str1 = "axbcxxd";
+        // printXatEnd(str1, 0, 0, "");
+
+
+        // String str2 = "abbccda";
+        // removeDuplicates(str2, 0, "");
+
+
+        // String str3 = "abc";
+        // subsequences(str3, 0, "");
     }
 }

@@ -1,5 +1,7 @@
 package recursion_intermediate;
 
+import java.util.HashSet;
+
 public class Recursion2 {
 
     // public static void towerOfHanoi(int n, String source, String helper, String destination)
@@ -128,6 +130,49 @@ public class Recursion2 {
     // }
 
 
+    /*****/
+    //     public static void uniqueSubsequences(String str, int idx, String newString, HashSet<String> set) {
+
+    //     if(idx == str.length()) {
+    //         if(set.contains(newString)) {
+    //             return;
+    //         } else {
+    //             System.out.println(newString);
+    //             set.add(newString);
+    //             return;
+    //         }
+    //     }
+    //     char currChar = str.charAt(idx);
+
+    //     //to come in string
+    //     uniqueSubsequences(str, idx+1, newString+currChar, set);
+        
+    //     //to not come in string
+    //     uniqueSubsequences(str, idx+1, newString, set);
+    // }
+
+
+    public static String[] keypad = {".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz"};
+
+    public static void printComb(String str, int idx, String combination)  {
+        
+        //printing combination string when index reaches the maximum
+        if(idx == str.length()) {
+            System.out.println(combination);
+            return;
+        }
+
+        //getting pressed key's characters in mapping string
+        char currChar = str.charAt(idx);
+        String mapping = keypad[currChar - '0'];     //keypad[currChar]
+
+        //getting combinations for characters in mapped key
+        for(int i = 0; i < mapping.length(); i++) {
+            printComb(str, idx + 1, combination + mapping.charAt(i) );
+        }
+    }
+
+
     public static void main(String[] args) {
         // int n = 3;
         // towerOfHanoi(n, "S", "H", "D");
@@ -157,5 +202,13 @@ public class Recursion2 {
 
         // String str3 = "abc";
         // subsequences(str3, 0, "");
+
+        
+        // String str4 = "aaa";
+        // HashSet<String> set = new HashSet<>();
+        // uniqueSubsequences(str4, 0, "", set);
+
+        String str5 = "23";
+        printComb(str5, 0, "");
     }
 }

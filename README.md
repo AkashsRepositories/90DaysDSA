@@ -13,3 +13,5 @@ Day 4: Recursion some medium level questions and some classic problems like Towe
 
 Day 5: Some good questions based on Recursion concept.
 
+Day 6: Recursion advanced topics and Backtracking introduction.
+

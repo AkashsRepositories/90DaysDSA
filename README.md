@@ -17,5 +17,7 @@ Day 6: Recursion advanced topics and Backtracking introduction.
 
 Day 7: Backtracking working | Permutations | N-Queens problem.
 
+Day 8: Solved some questions on Hackerrank.
+
 
 

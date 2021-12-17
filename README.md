@@ -19,5 +19,5 @@ Day 7: Backtracking working | Permutations | N-Queens problem.
 
 Day 8: Solved some questions on Hackerrank.
 
-
+Day 9: Studied Array data structure.
 

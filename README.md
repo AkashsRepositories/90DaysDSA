@@ -21,3 +21,5 @@ Day 8: Solved some questions on Hackerrank.
 
 Day 9: Studied Array data structure.
 
+Day 10: Solved warmup questions of Algorithms on Hackerrank. 
+

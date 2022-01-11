@@ -26,3 +26,5 @@ Day 10: Solved warmup questions of Algorithms on Hackerrank.
 Day 11: Studied Array and operations.
 
 Day 12: Read and code about ArrayList and methods.
+
+Day 13: Did some random coding questions.

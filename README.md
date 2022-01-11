@@ -28,3 +28,5 @@ Day 11: Studied Array and operations.
 Day 12: Read and code about ArrayList and methods.
 
 Day 13: Did some random coding questions.
+
+Day 14: Searching(Linear and Binary) and Sorting(Bubble and Selection).

@@ -30,3 +30,6 @@ Day 12: Read and code about ArrayList and methods.
 Day 13: Did some random coding questions.
 
 Day 14: Searching(Linear and Binary) and Sorting(Bubble and Selection).
+
+Day 15: Installed Ubuntu and get to know about basic commands for linux shell.
+

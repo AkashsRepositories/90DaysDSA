@@ -1,6 +1,5 @@
-# 90DaysDSA
-Learning Data Structures and Algorithms :) - Roadmap by [Nishant Chahar](https://www.youtube.com/watch?v=UVP3123wNYQ&t=656s)
-
+# LearningDSA
+Learning Data Structures and Algorithms :)
 Updates -
 
 Day 1: Time complexity and Space Complexity - Basic
